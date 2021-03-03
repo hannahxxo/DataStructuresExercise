@@ -55,3 +55,13 @@ console.log(droids.protocol);
 // 3d
 droids["assassin"]="IG-11"
 console.log(droids);
+
+// BONUS
+// 4
+sithLord[0][6]
+console.log(sithLord[0][6]);
+
+// 5
+console.log(sithLord.slice(-2, -1));
+
+// 6a
