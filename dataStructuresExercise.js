@@ -58,29 +58,31 @@ console.log(droids);
 
 // BONUS
 // 4
-sithLord[0][6]
-console.log(sithLord[0][6]);
+starWarsVillains[0][6]
+console.log(starWarsVillains[0][6]);
 
 // 5
 console.log(sithLord.slice(-2, -1));
 
 // 6a
-const starWarsMovie = {
-    firstObject: {
+const starWarsMovie = [
+    {
         episodeOne: "The Phantom Menace",
         episodeTwo: "Attack of the Clones",
-        episodeThree: "Revenge of the Sith",
+        episodeThree: "Revenge of the Sith"
     },
-    secondObject: {
+    {
         episodeFour: "A New Hope",
         episodeFive: "The Empire Strikes Back",
-        episodeSix: "Return of the Jedi",
+        episodeSix: "Return of the Jedi"
     },
-    thirdObject: {
+    {
         episodeSeven: "The Force Awakens",
         episodeEight: "The Last Jedi",
         episodeNine: "The Rise of Skywalker"
     }
-};
+];
 
 // 6b
+starWarsMovie.splice(1, 0, "Solo", "Rouge One");
+console.log(starWarsMovie);
