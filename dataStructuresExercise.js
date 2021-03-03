@@ -65,3 +65,22 @@ console.log(sithLord[0][6]);
 console.log(sithLord.slice(-2, -1));
 
 // 6a
+const starWarsMovie = {
+    firstObject: {
+        episodeOne: "The Phantom Menace",
+        episodeTwo: "Attack of the Clones",
+        episodeThree: "Revenge of the Sith",
+    },
+    secondObject: {
+        episodeFour: "A New Hope",
+        episodeFive: "The Empire Strikes Back",
+        episodeSix: "Return of the Jedi",
+    },
+    thirdObject: {
+        episodeSeven: "The Force Awakens",
+        episodeEight: "The Last Jedi",
+        episodeNine: "The Rise of Skywalker"
+    }
+};
+
+// 6b
